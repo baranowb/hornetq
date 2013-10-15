@@ -167,4 +167,5 @@ public interface ConnectionFactoryConfiguration extends EncodingSupport
    void setFactoryType(JMSFactoryType factType);
 
    JMSFactoryType getFactoryType();
+
 }

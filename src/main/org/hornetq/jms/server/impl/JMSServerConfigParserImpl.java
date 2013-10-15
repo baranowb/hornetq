@@ -303,7 +303,6 @@ public class JMSServerConfigParserImpl implements JMSServerConfigParser
       boolean compressLargeMessages = XMLConfigurationUtil.getBoolean(e,
                                                                 "compress-large-messages",
                                                                 HornetQClient.DEFAULT_COMPRESS_LARGE_MESSAGES);
-
       boolean blockOnAcknowledge = XMLConfigurationUtil.getBoolean(e,
                                                                    "block-on-acknowledge",
                                                                    HornetQClient.DEFAULT_BLOCK_ON_ACKNOWLEDGE);

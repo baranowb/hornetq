@@ -883,16 +883,16 @@ public abstract class MessageImpl implements MessageInternal
 
    // Public --------------------------------------------------------
 
+   public TypedProperties getProperties()
+   {
+      return properties;
+   }
+
    // Package protected ---------------------------------------------
 
    // Protected -----------------------------------------------------
 
    // Private -------------------------------------------------------
-
-   private TypedProperties getProperties()
-   {
-      return properties;
-   }
 
    // This must be synchronized as it can be called concurrently id the message is being delivered
    // concurrently to

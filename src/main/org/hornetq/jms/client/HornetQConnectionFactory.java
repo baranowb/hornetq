@@ -549,7 +549,7 @@ public class HornetQConnectionFactory implements Serializable, Referenceable
       serverLocator.setCompressLargeMessage(compress);
    }
 
-   public void close()
+  public void close()
    {
       serverLocator.close();
    }

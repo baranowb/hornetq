@@ -339,7 +339,6 @@ public class HornetQResourceAdapterConfigTest extends UnitTestCase
          "         <config-property-type>boolean</config-property-type>" +
          "         <config-property-value>true</config-property-value>" +
          "      </config-property>" +
-         "      <config-property>" +
          "         <description>some desk</description>" +
          "         <config-property-name>MaxRetryInterval</config-property-name>" +
          "         <config-property-type>long</config-property-type>" +

@@ -616,4 +616,5 @@ public interface ServerLocator
    void addClusterTopologyListener(ClusterTopologyListener listener);
 
    void removeClusterTopologyListener(ClusterTopologyListener listener);
+
 }

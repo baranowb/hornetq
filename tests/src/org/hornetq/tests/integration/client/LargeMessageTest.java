@@ -66,6 +66,7 @@ public class LargeMessageTest extends LargeMessageTestBase
 
    protected ServerLocator locator;
 
+   protected boolean isCompressedTest = false;
    // Constructors --------------------------------------------------
 
    // Public --------------------------------------------------------
@@ -204,7 +205,7 @@ public class LargeMessageTest extends LargeMessageTestBase
 
          session.close();
 
-         validateNoFilesOnLargeDir();
+         validateNoFilesOnLargeDir(isCompressedTest ? 0 : 1);
       }
       finally
       {

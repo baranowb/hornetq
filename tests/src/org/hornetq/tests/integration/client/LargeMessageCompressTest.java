@@ -41,7 +41,10 @@ import org.hornetq.tests.util.RandomUtil;
 public class LargeMessageCompressTest extends LargeMessageTest
 {
    // Constructors --------------------------------------------------
-
+   public LargeMessageCompressTest()
+   {
+      isCompressedTest = true;
+   }
    protected boolean isNetty()
    {
       return false;
